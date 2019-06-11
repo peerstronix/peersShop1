@@ -1,0 +1,186 @@
+/*
+ * Stream v1.0 (https://htmlstream.com)
+ * Copyright Htmlstream
+ * Licensed under MIT
+ */
+/*------------------------------------
+  Default Styles
+------------------------------------*/
+
+
+
+/*----------------------------------
+  Header
+------------------------------------*/
+@media (max-width: 767px) {
+    .navbar-expand-sm.fixed-top {
+      background-color: rgba(27, 30, 36, 0.3);
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-expand-md.fixed-top {
+      background-color: rgba(27, 30, 36, 0.3);
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .navbar-expand-lg.fixed-top {
+      background-color: rgba(27, 30, 36, 0.3);
+    }
+  }
+  
+  .navbar-bg-onscroll.fixed-top {
+    /* background-color: #800080; */
+    /* background: #dd2476; */
+    background: var(--bggradiesnt);
+    transition: all .3s ease-out;
+  }
+  
+  .navbar-bg-onscroll.fixed-top--fade {
+    transition: all .4s ease-out;
+  }
+
+
+
+  a {
+    color: #59287a;
+  }
+  
+  a:hover {
+    color: #59287a;
+  }
+  
+  a:focus {
+    outline: none;
+  }
+  
+  p {
+    line-height: 1.8;
+  }
+  
+  /*----------------------------------
+    Modals
+  ------------------------------------*/
+  .modal-content {
+    box-shadow: 0 0.25rem 0.6rem rgba(27, 30, 36, 0.07);
+  }
+  
+  @media (min-width: 576px) {
+    .modal-content {
+      box-shadow: 0 0.5rem 1.625rem rgba(27, 30, 36, 0.07);
+    }
+  }
+  
+  /*----------------------------------
+    Tabs
+  ------------------------------------*/
+  .nav-tabs--v1 .nav-item {
+    margin-right: 3px;
+  }
+  
+  .nav-tabs--v1 .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-tabs--v1 .nav-link {
+    border-top-width: 3px;
+  }
+  
+  .nav-tabs--v1 .nav-link:hover, .nav-tabs--v1 .nav-link:focus {
+    border-color: transparent;
+  }
+  
+  .nav-tabs--v1 .nav-link.active,
+  .nav-tabs--v1 .nav-item.show .nav-link {
+    border-top-color: #59287a;
+  }
+  
+  .nav-tabs--v1 .nav-link.active:hover, .nav-tabs--v1 .nav-link.active:focus,
+  .nav-tabs--v1 .nav-item.show .nav-link:hover,
+  .nav-tabs--v1 .nav-item.show .nav-link:focus {
+    border-left-color: #e6e7e9;
+    border-right-color: #e6e7e9;
+    border-top-color: #59287a;
+  }
+ 
+
+
+  
+  
+  /*---Media Queries --*/
+  @media (max-width: 992px) {
+  
+    }
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 576px) {
+    
+  }
+  
+  
+
+  :root{
+    --bggradiesnt: linear-gradient(
+      to bottom, #dd2476, #d416cb);
+  }
+  
+
+  
+  
+  @media only screen and (max-width: 767px){
+    .navbar-inverse .navbar-brand{
+      font-size: 30px;
+      padding: 20px 15px;
+    }
+  
+    .navbar-collapse{
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+  }
+  
+  
+  .business{
+    width: 400px;
+}
+
+.location{
+    width: 200px;
+}
+
+.search-btn{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+
+.search-btn:hover{
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.form-box{
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.search-field{
+  height: 35px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+  
+  
+  
+  
+  
+  
+  
+  

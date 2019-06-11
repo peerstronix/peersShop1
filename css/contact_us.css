@@ -1,0 +1,8 @@
+.one{
+  border-right: 1px solid #eee;
+}
+
+.breadcrumb-dot .breadcrumb-item+.breadcrumb-item::before {
+    content: "•";
+    color: #408080;
+}
