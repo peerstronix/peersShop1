@@ -9,6 +9,23 @@
 
 
 
+html {
+  font-size: 1rem;
+}
+
+
+body {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  color: #1b1e24;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
+}
+
 /*----------------------------------
   Header
 ------------------------------------*/
@@ -179,7 +196,50 @@
   
   
   
-  
+footer{
+  background: #59287a;
+  /* background: var(--bggradiesnt); */
+  overflow-x: hidden;
+}
+
+footer .foot{
+  padding: 50px 30px 50px 30px;
+}
+
+footer .subscribeBut{
+  color: white;
+  background: var(--bggradiesnt);
+}
+
+footer p>span{
+  color: #dd2476;
+}
+
+footer input{
+  border: none !important;
+}
+
+footer input::placeholder{
+  color: white !important;
+
+}
+
+footer .input-group .butt{
+  background: var(--bggradiesnt);
+  border: none;
+}
+
+footer .column{
+  color: #dd2476;
+}
+
+footer .column{
+  padding: 0 0.5em;
+}
+
+footer .contact p .fas{
+  color: #dd2476;
+}
   
   
   
