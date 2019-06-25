@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="zoom-ef-style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4">
+                <div class="card shadow" style="width: 20rem;">
+                    <div class="inner">
+                        <img src="images/laptopRepair.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title">PC Repairs And Servicing</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">view more...</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" style="width: 20rem;">
+                    <div class="inner">
+                        <img src="images/laptopRepair.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title">PC Repairs And Servicing</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">view more...</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow" style="width: 20rem;">
+                    <div class="inner">
+                        <img src="images/laptopRepair.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title">PC Repairs And Servicing</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">view more...</a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                    <div class="card myCard" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="images/laptopRepair.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                            <h5 class="card-title">PC Repairs And Servicing</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="view-more-div">
+                                <a href="#" class="btn btn-success btn-lg">view more...</a>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6">
+                <h1>Request A Service</h1>
+
+                <form id="request-service" method="POST" action="#" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_firstname">Firstname *</label>
+                                    <input id="form_firstname" type="text" name="name" class="form-control" placeholder="please enter your first name" required="required" data-error="First name is required">
+
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="please enter your last name" required="required" data-error="Last name is required">
+    
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="please enter your email" required="required" data-error="Valid email is required">
+    
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_need">Please specify repair or service need *</label>
+                                            <select form="form_need" name="need" class="form-control" required="required" data-error="Please specify repair or service need">
+                                                <option value=""></option>
+                                                <option value="Laptop repairs">Laptop repairs</option>
+                                                <option value="Residential network service">Residential network service</option>
+                                                <option value="Office network service">Office network service</option>
+                                                <option value="Security systems installation">Security systems installation</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="row">
+                                    <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message">Message *</label>
+                                                <textarea id="form_message" type="text" name="message" class="form-control" placeholder="Details of repair or service needed" required="required" data-error="Please, leave us details of repair or service needed."></textarea>
+            
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                    </div>
+                                    <div class="col-md-6">    
+                                                <input type="submit" class="btn btn-success" value="Send Request">
+                                    </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted">All fields marked * are required</p>
+                                </div>
+                            </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+            <div class="container-fluid col-xl-6">
+                    <h1>Request A Service</h1>
+    
+                    <div class="inner">
+                        <img src="images/repairShop.jpg">
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

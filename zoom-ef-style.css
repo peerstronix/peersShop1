@@ -1,0 +1,24 @@
+
+.container{
+    margin-top: 8%;
+}
+
+.inner{
+    overflow: hidden;   
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+
+
+.myCard:hover{
+    -webkit-box-shadow: -1px 9px 40px -12 rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12 rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12 rgba(0,0,0,0.75);
+}
